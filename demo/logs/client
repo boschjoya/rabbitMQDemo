@@ -1,0 +1,101 @@
+2019-03-27 10:59:16,348 com.example.demo.serviceImpl.HelloSender1 [http-nio-8081-exec-10] (HelloSender1.java:21) INFO  --> Sender1 : hello1 WorldWed Mar 27 10:59:16 CST 2019
+2019-03-27 10:59:16,569 com.example.demo.serviceImpl.HelloReciver1 [SimpleAsyncTaskExecutor-1] (HelloReciver1.java:18) INFO  --> Receiver1  : hello1 WorldWed Mar 27 10:59:16 CST 2019
+2019-03-27 11:00:30,916 com.example.demo.serviceImpl.UserSender [http-nio-8081-exec-9] (UserSender.java:19) INFO  --> UserSender : User [name=joya, pass=123456789]
+2019-03-27 11:00:31,041 com.example.demo.serviceImpl.HelloReciver2 [SimpleAsyncTaskExecutor-1] (HelloReciver2.java:19) INFO  --> helloReciver2  -- Recive user:User [name=joya, pass=123456789]
+2019-03-27 11:01:38,238 com.example.demo.serviceImpl.HelloSender2 [http-nio-8081-exec-4] (HelloSender2.java:17) INFO  --> sender1 : I am topic.mesaage msg======World2,World2
+2019-03-27 11:01:38,245 com.example.demo.serviceImpl.HelloSender2 [http-nio-8081-exec-4] (HelloSender2.java:21) INFO  --> sender2 : I am topic.mesaages msg########World2,World2
+2019-03-27 11:01:38,297 com.example.demo.serviceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver  : I am topic.mesaage msg======World2,World2
+2019-03-27 11:01:38,315 com.example.demo.serviceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver  : I am topic.mesaages msg########World2,World2
+2019-03-27 11:06:20,012 com.example.demo.serviceImpl.HelloSender2 [http-nio-8081-exec-7] (HelloSender2.java:17) INFO  --> sender1 : I am topic.mesaage msg======2,2
+2019-03-27 11:06:20,076 com.example.demo.serviceImpl.HelloSender2 [http-nio-8081-exec-7] (HelloSender2.java:21) INFO  --> sender2 : I am topic.mesaages msg########2,2
+2019-03-27 11:06:20,083 com.example.demo.serviceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver  : I am topic.mesaage msg======2,2
+2019-03-27 11:06:20,098 com.example.demo.serviceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver  : I am topic.mesaages msg########2,2
+2019-03-27 11:13:25,215 com.example.demo.serviceImpl.HelloSender1 [http-nio-8081-exec-3] (HelloSender1.java:21) INFO  --> Sender1 : hello1 WorldWed Mar 27 11:13:25 CST 2019
+2019-03-27 11:13:25,228 com.example.demo.serviceImpl.HelloReciver1 [SimpleAsyncTaskExecutor-1] (HelloReciver1.java:18) INFO  --> Receiver1  : hello1 WorldWed Mar 27 11:13:25 CST 2019
+2019-03-27 11:17:18,708 com.example.demo.serviceImpl.HelloSender2 [http-nio-8081-exec-7] (HelloSender2.java:17) INFO  --> sender1 : I am topic.mesaage msg======World2,World2
+2019-03-27 11:17:18,773 com.example.demo.serviceImpl.HelloSender2 [http-nio-8081-exec-7] (HelloSender2.java:21) INFO  --> sender2 : I am topic.mesaages msg########World2,World2
+2019-03-27 11:17:18,836 com.example.demo.serviceImpl.TopicReciver1 [SimpleAsyncTaskExecutor-1] (TopicReciver1.java:16) INFO  --> topicMessageReceiver1  : I am topic.mesaage msg======World2,World2
+2019-03-27 11:17:18,836 com.example.demo.serviceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver2  : I am topic.mesaage msg======World2,World2
+2019-03-27 11:17:18,853 com.example.demo.serviceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver2  : I am topic.mesaages msg########World2,World2
+2019-03-27 11:26:40,461 com.example.demo.serviceImpl.HelloSender2 [http-nio-8081-exec-7] (HelloSender2.java:17) INFO  --> sender1 : I am topic.mesaage msg======World1
+2019-03-27 11:26:40,529 com.example.demo.serviceImpl.HelloSender2 [http-nio-8081-exec-7] (HelloSender2.java:21) INFO  --> sender2 : I am topic.mesaages msg########World2
+2019-03-27 11:26:40,591 com.example.demo.serviceImpl.TopicReciver1 [SimpleAsyncTaskExecutor-1] (TopicReciver1.java:16) INFO  --> topicMessageReceiver1  : I am topic.mesaage msg======World1
+2019-03-27 11:26:40,591 com.example.demo.serviceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver2  : I am topic.mesaage msg======World1
+2019-03-27 11:26:40,608 com.example.demo.serviceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver2  : I am topic.mesaages msg########World2
+2019-03-27 13:58:34,306 com.example.demo.serviceImpl.fanoutServiceImpl.MessageSender1 [http-nio-8081-exec-10] (MessageSender1.java:17) INFO  --> fanoutSender :hello i am hzbWorld
+2019-03-27 13:58:34,344 com.example.demo.serviceImpl.fanoutServiceImpl.FanoutReciver1 [SimpleAsyncTaskExecutor-1] (FanoutReciver1.java:16) INFO  --> FanoutReceiverA  : fanoutSender :hello i am hzbWorld
+2019-03-27 13:58:34,349 com.example.demo.serviceImpl.fanoutServiceImpl.FanoutReciver3 [SimpleAsyncTaskExecutor-1] (FanoutReciver3.java:16) INFO  --> FanoutReceiverC  : fanoutSender :hello i am hzbWorld
+2019-03-27 14:20:17,678 com.example.demo.serviceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver2  : callbackSender : i am callback senderWorld
+2019-03-27 14:27:07,255 com.example.demo.serviceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver2  : callbackSender : i am callback sender11111111111111
+2019-03-27 15:36:36,443 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya0Wed Mar 27 15:36:36 CST 2019
+2019-03-27 15:36:36,497 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya1Wed Mar 27 15:36:36 CST 2019
+2019-03-27 15:36:36,506 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya2Wed Mar 27 15:36:36 CST 2019
+2019-03-27 15:36:36,523 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya3Wed Mar 27 15:36:36 CST 2019
+2019-03-27 15:36:36,533 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya4Wed Mar 27 15:36:36 CST 2019
+2019-03-27 15:36:36,547 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya5Wed Mar 27 15:36:36 CST 2019
+2019-03-27 15:36:36,553 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya6Wed Mar 27 15:36:36 CST 2019
+2019-03-27 15:36:36,565 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya7Wed Mar 27 15:36:36 CST 2019
+2019-03-27 15:36:36,573 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya8Wed Mar 27 15:36:36 CST 2019
+2019-03-27 15:36:36,582 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya9Wed Mar 27 15:36:36 CST 2019
+2019-03-27 15:44:32,123 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,166 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-7] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,179 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,191 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-7] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,202 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,215 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-7] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,227 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,239 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-7] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,251 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,261 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-7] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,274 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,287 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-7] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,299 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,313 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-7] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,323 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,334 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-7] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,349 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,361 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-7] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,372 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-7] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:44:32,381 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-7] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:44:32 CST 2019
+2019-03-27 15:47:12,707 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-1] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:47:12 CST 2019
+2019-03-27 15:47:12,794 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-1] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:47:12 CST 2019
+2019-03-27 15:47:12,812 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-1] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:47:12 CST 2019
+2019-03-27 15:47:12,829 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-1] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:47:12 CST 2019
+2019-03-27 15:47:12,844 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-1] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:47:12 CST 2019
+2019-03-27 15:47:12,851 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-1] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:47:12 CST 2019
+2019-03-27 15:47:12,865 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-1] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:47:12 CST 2019
+2019-03-27 15:47:12,974 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-1] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:47:12 CST 2019
+2019-03-27 15:47:12,997 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-1] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:47:12 CST 2019
+2019-03-27 15:47:13,010 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-1] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:47:13,020 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-1] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:47:13,035 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-1] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:47:13,055 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-1] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:47:13,071 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-1] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:47:13,085 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-1] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:47:13,097 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-1] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:47:13,123 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-1] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:47:13,142 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-1] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:47:13,159 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-1] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:47:13,171 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-1] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:47:13 CST 2019
+2019-03-27 15:48:36,221 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-3] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,232 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-3] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,239 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-3] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,247 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-3] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,257 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-3] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,267 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-3] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,277 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-3] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,288 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-3] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,298 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-3] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,306 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-3] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,313 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-3] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,323 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-3] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,332 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-3] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,342 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-3] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,351 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-3] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,359 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-3] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,367 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-3] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,375 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-3] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,383 com.example.demo.serviceImpl.toMany.Sender1 [http-nio-8081-exec-3] (Sender1.java:27) INFO  --> Sender1 : joya  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:48:36,390 com.example.demo.serviceImpl.toMany.Sender2 [http-nio-8081-exec-3] (Sender2.java:25) INFO  --> Sender2 : yoyo  Wed Mar 27 15:48:36 CST 2019
+2019-03-27 15:49:46,148 com.example.demo.serviceImpl.topicServiceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver2  : callbackSender : i am callback senderWorld
+2019-03-27 16:08:14,030 com.example.demo.serviceImpl.topicServiceImpl.TopReciver2 [SimpleAsyncTaskExecutor-1] (TopReciver2.java:16) INFO  --> topicMessageReceiver2  : callbackSender : i am callback senderWorld

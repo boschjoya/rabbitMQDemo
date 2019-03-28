@@ -20,7 +20,7 @@ private static Logger logger = Logger.getLogger(reciver1.class);
 	
 	@RabbitHandler
     public void process(String hello) {
-		System.out.println("reciver1  : " + hello);
+		logger.info("reciver1  : " + hello);
     }
 
 }

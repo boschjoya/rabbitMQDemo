@@ -3,6 +3,7 @@ package com.example.demo.common;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.amqp.rabbit.transaction.RabbitTransactionManager;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;
@@ -64,5 +65,19 @@ public class RabbitConfig {
         RabbitTemplate template = new RabbitTemplate(connectionFactory());
         return template;
     }
+
+//    配置事务机制一定需要在application.properties的spring.rabbitmq.publisher-confirms设成false
+//    因为，comfirm机制是异步的，事务是同步的，会冲突
+//    启用事务后，只需要在方法前加@Transactional
+//    /**
+//     * 配置启用rabbitmq事务
+//     * @param connectionFactory
+//     * @return
+//     */
+//    @Bean
+//    public RabbitTransactionManager rabbitTransactionManager(CachingConnectionFactory connectionFactory) {
+//        return new RabbitTransactionManager(connectionFactory);
+//    }
+
 
 }

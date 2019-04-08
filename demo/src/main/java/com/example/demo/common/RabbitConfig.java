@@ -53,7 +53,7 @@ public class RabbitConfig {
         connectionFactory.setUsername(username);
         connectionFactory.setPassword(password);
         connectionFactory.setVirtualHost(virtualHost);
-        /** 如果要进行消息回调，则这里必须要设置为true */
+        /** 如果要进行生产者消息回调，则这里必须要设置为true */
         connectionFactory.setPublisherConfirms(publisherConfirms);
         return connectionFactory;
     }

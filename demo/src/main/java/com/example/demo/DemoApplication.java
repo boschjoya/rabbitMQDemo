@@ -50,8 +50,8 @@ public class DemoApplication {
     }
  
     @Bean
-    public Queue queueMessages() {
-        return new Queue("topic.messages");
+    public Queue queueMessagessss() {
+        return new Queue("topic.messagessss");
     }
   //===============以上是验证topic Exchange的队列==========
     
@@ -95,14 +95,14 @@ public class DemoApplication {
     }
  
     /**
-     * 将队列topic.messages与exchange绑定，binding_key为topic.#,模糊匹配
+     * 将队列topic.messagessss与exchange绑定，binding_key为topic.#,模糊匹配
      * @param queueMessage
      * @param exchange
      * @return
      */
     @Bean
-    Binding bindingExchangeMessages(Queue queueMessages, TopicExchange exchange) {
-        return BindingBuilder.bind(queueMessages).to(exchange).with("topic.#");
+    Binding bindingExchangeMessages(Queue queueMessagessss, TopicExchange exchange) {
+        return BindingBuilder.bind(queueMessagessss).to(exchange).with("topic.#");
     }
     
     @Bean

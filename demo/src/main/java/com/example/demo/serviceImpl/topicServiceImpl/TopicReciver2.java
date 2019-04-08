@@ -9,7 +9,7 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
 @Component
-@RabbitListener(queues = "topic.messages")
+@RabbitListener(queues = "topic.messagessss")
 public class TopicReciver2 {
 	
 	private static Logger logger = Logger.getLogger(TopicReciver2.class); 
@@ -18,16 +18,16 @@ public class TopicReciver2 {
     public void process(String msg,Channel channel, Message message)throws IOException {
         //logger.info("topicMessageReceiver2  : " +msg);
         try {
-            //告诉服务器收到这条消息 已经被我消费了 可以在队列删掉 这样以后就不会再发了 否则消息服务器以为这条消息没处理掉 后续还会在发
+            //x告诉服务器收到这条消息 已经被我消费了 可以在队列删掉 这样以后就不会再发了 否则消息服务器以为这条消息没处理掉 后续还会在发
         	channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
-            logger.info("receiver success -------- topicMessagesReceiver2 " + msg);
-            //手动回复false ack
+            logger.info("receiver success --- topicMessagessssReceiver2 " + msg);
+            //x手动回复false ack
             //channel.basicNack(message.getMessageProperties().getDeliveryTag(), false, true);
-            //拒绝消息
+            //x拒绝消息
             //channel.basicReject(message.getMessageProperties().getDeliveryTag(), true);
         } catch (IOException e) {
             e.printStackTrace();
-            //丢弃这条消息
+            //x丢弃这条消息
             //channel.basicNack(message.getMessageProperties().getDeliveryTag(), false,false);
             logger.error("receiver fail");
         }
